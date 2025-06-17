@@ -1,24 +1,102 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Professional Portfolio
 
-## Getting Started
+A modern, responsive portfolio website built with Next.js 15, TypeScript, and Tailwind CSS.
 
-First, run the development server:
+## ✨ Features
 
+- **Modern Design**: Clean, professional, and responsive design
+- **Interactive Animations**: Smooth animations with Framer Motion
+- **Sections**: Hero, About, Experience, Projects, and Contact
+- **TypeScript**: Full type safety throughout the application
+- **Responsive**: Optimized for all device sizes
+- **SEO Optimized**: Meta tags and semantic HTML structure
+- **Performance**: Built with Next.js 15 for optimal performance
+
+## 🚀 Tech Stack
+
+- **Framework**: Next.js 15 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+- **Code Quality**: ESLint
+
+## 📋 Prerequisites
+
+- Node.js 18.0 or later
+- npm, yarn, pnpm, or bun
+
+## 🛠️ Installation & Setup
+
+1. **Clone or use this repository**
+
+2. **Install dependencies**:
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+3. **Start the development server**:
 ```bash
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. **Open your browser** and navigate to [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📝 Customization
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Personal Information
+
+Edit `src/lib/data.ts` to update your personal information:
+
+- **Personal Info**: Name, title, bio, avatar, resume URL
+- **Experience**: Work history, positions, descriptions
+- **Projects**: Portfolio projects with descriptions and links
+- **Skills**: Technical skills organized by category
+- **Contact**: Email, phone, location, social links
+
+### Resume Integration
+
+To add your resume:
+
+1. **PDF Method**: Place your resume PDF in the `public` folder
+2. **Update data**: Set `resumeUrl: "/your-resume.pdf"` in `src/lib/data.ts`
+3. **External Link**: Use a direct link to Google Drive, Dropbox, etc.
+
+### Styling
+
+- **Colors**: Modify Tailwind config or use CSS custom properties
+- **Fonts**: Update font imports in `src/app/layout.tsx`
+- **Layout**: Customize components in `src/components/`
+
+## 🚀 Deployment
+
+### Vercel (Recommended)
+```bash
+npm run build
+# Deploy to Vercel
+```
+
+### Other Platforms
+```bash
+npm run build
+npm run start
+```
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+**Need help customizing your portfolio?** Feel free to reach out or check the documentation!
 
 ## Learn More
 
