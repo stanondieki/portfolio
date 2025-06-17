@@ -28,7 +28,7 @@ export const projects: Project[] = [
     description: "A mobile app for beauty product sales with advanced features like Time messaging.",
     longDescription: "Developed during my time at Dukatech, Soko Beauty is a comprehensive mobile application for beauty product sales featuring real-time messaging, Firebase cloud storage, and enhanced user experience.",
     technologies: ["Dart", "Flutter", "Firebase", "Cloud Storage", "Real-time Messaging"],
-    githubUrl: "https://github.com/stanleyondieki", // Update with actual URL
+    githubUrl: "https://github.com/stanondieki", // Update with actual URL
     featured: true,
   },
   {
@@ -37,7 +37,7 @@ export const projects: Project[] = [
     description: "Various web development projects showcasing modern web technologies.",
     longDescription: "Collection of web applications built using HTML, CSS, JavaScript, React, and Next.js demonstrating problem-solving skills and modern development practices.",
     technologies: ["HTML", "CSS", "JavaScript", "React", "Next.js"],
-    githubUrl: "https://github.com/stanleyondieki", // Update with actual URL
+    githubUrl: "https://github.com/stanondieki", // Update with actual URL
     featured: true,
   },
   {
@@ -46,7 +46,7 @@ export const projects: Project[] = [
     description: "Mobile applications built with Flutter and React Native.",
     longDescription: "Cross-platform mobile applications demonstrating expertise in mobile development frameworks and user experience design.",
     technologies: ["Flutter", "Dart", "React Native", "Firebase", "Mobile UI/UX"],
-    githubUrl: "https://github.com/stanleyondieki", // Update with actual URL
+    githubUrl: "https://github.com/stanondieki", // Update with actual URL
     featured: true,
   },
 ];
@@ -86,7 +86,7 @@ export const contact: Contact = {
   email: "ondiekistanley21@gmail.com",
   phone: "+254 727 230 675",
   location: "00100, Nairobi, Kenya",
-  linkedin: "https://shorturl.at/TLcRr",
-  github: "https://shorturl.at/Frnd8",
+  linkedin: "https://www.linkedin.com/in/stanley-ondieki-171a5631a/",
+  github: "https://github.com/stanondieki",
   // website: "https://yourwebsite.com", // Add your website if you have one
 };
